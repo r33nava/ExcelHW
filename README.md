@@ -22,13 +22,13 @@ Since getting funded on Kickstarter requires meeting or exceeding the project's 
 
 * Create two new columns, one called `category` at Q and another called `sub-category` at R, which use formulas to split the `Category and Sub-Category` column into two parts.
 
-  ![Category Stats](Images/CategoryStats.PNG)
+  ![Category Stats](CategoryStats.PNG)
 
   * Create a new sheet with a pivot table that will analyze your initial worksheet to count how many campaigns were "successful," "failed," "cancelled," or are currently "live" per **category**.
 
     * Create a stacked column pivot chart that can be filtered by `country` based on the table you have created.
 
-  ![Subcategory Stats](Images/SubcategoryStats.PNG)
+  ![Subcategory Stats](SubcategoryStats.PNG)
 
   * Create a new sheet with a pivot table that will analyze your initial sheet to count how many campaigns were "successful," "failed," "cancelled," or are currently "live" per **sub-category**.
 
@@ -71,7 +71,7 @@ Since getting funded on Kickstarter requires meeting or exceeding the project's 
     * 45000 to 49999
     * Greater than or equal to 50000
 
-    ![Goal Outcomes](Images/GoalOutcomes.PNG)
+    ![Goal Outcomes](GoalOutcomes.PNG)
 
   * Using the `COUNTIFS()` formula, count how many successful, failed, and canceled projects were created with goals within those ranges listed above. Populate the `Number Successful`, `Number Failed`, and `Number Canceled` columns with this data.
 
